@@ -255,6 +255,16 @@ button {
     overflow: hidden;
 }
 
+.container-features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;background-color: #f4f4fd;
+    background-repeat: 4px;
+    border: 1px solid #8E8F99;
+    margin-bottom: 8px;
+}
+
 .features-list {
     color: #2E2F42;
     font-weight: 500;
@@ -276,15 +286,15 @@ button {
 
 .icon-features{
     width: 100%;
-        max-width: 264px;
-        height: 112px;
-        margin: 0 0 8px;
-        border: 1px solid var(--light-slate);
-        border-radius: 4px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: var(--cloud);
+    max-width: 264px;
+    height: 112px;
+    margin: 0 0 8px;
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cloud);
         
     }
 
