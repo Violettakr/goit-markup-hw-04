@@ -229,6 +229,12 @@ button {
 .container-narrow {
     width: 1158px;
 }
+.features-list {
+    display: grid;
+    justify-content: center;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+}
 
 .feature-title {
     font-weight: 500;
@@ -255,12 +261,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 264px;
     height: 112px;
     background-color: #f4f4fd;
     background-repeat: 4px;
     border: 1px solid #8E8F99;
     margin-bottom: 8px;
     border-radius: 4px;
+    border: 1px solid var(--light-slate);
 }
 
 
@@ -271,17 +279,15 @@ button {
 }
 
 .icon-features{
-    width: 100%;
-    max-width: 264px;
-    height: 112px;
+    max-width: 64px;
+    height: 64px;
     margin: 0 0 8px;
-    border: 1px solid var(--light-slate);
+    border: none;
     border-radius: 4px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    background: var(--cloud);
-    }
+}
 
 .feature-text {
     line-height: 1.5;
@@ -351,11 +357,17 @@ button {
     align-items: center;
 }
 
-.social-link {
-    width: 40px;
+.socials-list {
     height: 40px;
+    width: 40px;
+}
+
+.social-link {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    display: grid;
+    display: flex;
+    justify-self: center;
     place-items: center;
     background: #4D5AE5;
     margin-top: 8px;
