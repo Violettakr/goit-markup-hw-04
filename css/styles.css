@@ -259,24 +259,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 112px;background-color: #f4f4fd;
+    height: 112px;
+    background-color: #f4f4fd;
     background-repeat: 4px;
     border: 1px solid #8E8F99;
     margin-bottom: 8px;
+    border-radius: 4px;
 }
 
-.features-list {
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    display: grid;
-    justify-content: center;
-    gap: 24px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
 
 .features-item {
     flex-basis: calc((100% - 72px) /3);
@@ -295,7 +285,6 @@ button {
     align-items: center;
     justify-content: center;
     background: var(--cloud);
-        
     }
 
 .feature-text {
