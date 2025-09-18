@@ -355,11 +355,14 @@ button {
     margin: 0;
     justify-content: center;
     align-items: center;
+    margin-top: 8px;
 }
 
 .socials-list {
     height: 40px;
     width: 40px;
+    justify-self: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .social-link {
@@ -367,12 +370,13 @@ button {
     height: 100%;
     border-radius: 50%;
     display: flex;
-    justify-self: center;
-    place-items: center;
     background: #4D5AE5;
     margin-top: 8px;
     transition: background-color var(--tr), color var(--tr), transform var(--tr);
+    justify-self: center;
+    align-items: center;
 }
+
 .team-item {
     transition: transform var(--tr);
 }
@@ -393,7 +397,7 @@ button {
 }
 
 .icon-team {
-    fill: #ffffff;
+    fill: #f4f4fd;
     display: block;
 }
 
