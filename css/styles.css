@@ -120,6 +120,10 @@ button {
 
 }
 
+.nav-link.current {
+    color: #404bbf;
+}
+
 .nav-link[aria-current="page"] {
     color: #4d5ae5;
 }
