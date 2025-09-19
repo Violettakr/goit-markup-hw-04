@@ -379,6 +379,7 @@ button {
     transition: background-color var(--tr), color var(--tr), transform var(--tr);
     justify-self: center;
     align-items: center;
+    justify-content: center;
 }
 
 
