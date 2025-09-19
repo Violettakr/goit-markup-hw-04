@@ -326,6 +326,12 @@ button {
     margin-bottom: 8px;
 }
 
+.team-role {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
 .team-list {
     display: flex;
     justify-content: center;
@@ -339,12 +345,11 @@ button {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
                 0 1px 1px 0 rgba(46, 47, 66, 0.16), 
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    transition: transform var(--tr);
 }
 
-.team-role {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
+.team-item:hover {
+    transform: translateY(-2px);
 }
 
 .socials {
@@ -361,7 +366,6 @@ button {
 .socials-list {
     height: 40px;
     width: 40px;
-    justify-self: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
@@ -377,16 +381,9 @@ button {
     align-items: center;
 }
 
-.team-item {
-    transition: transform var(--tr);
-}
-
-.team-item:hover {
-    transform: translateY(-2px);
-}
 
 .team-item:hover .social-link:not(:hover) {
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
 .social-link:hover,
