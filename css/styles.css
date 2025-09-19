@@ -400,10 +400,6 @@ button {
 }
 
 
-.team-item:hover .social-link:not(:hover) {
-    background-color: #404BBF;
-}
-
 .social-link:hover,
 .social-link:focus-visible {
     background: #31d0aa;
