@@ -505,9 +505,10 @@ button {
 
 .footer-inner {
     display: flex;
-    flex-direction: row;
-    gap: 120px;
-
+    align-items: baseline;
+}
+.footer-left {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -528,11 +529,15 @@ button {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+
 }
+
 .footer-right {
-    display: flex;
+    display: block
     flex-direction: column;
     gap: 16px;
+    align-items: baseline;
+    margin-right: 120px;
 }
 .footer-logo-accent {
     color: #F4F4FD;
@@ -544,8 +549,10 @@ button {
     gap: 16px 24px;
 }
 .footer-social {
-    margin: 0;
+    margin: 0 0 16px;
     font-weight: 500;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
 }
