@@ -371,7 +371,8 @@ button {
 }
 
 .socials-item {
-    gap: 24px;
+    width: 40px;
+    height: 40px;
 }
 
 .social-link {
@@ -379,18 +380,20 @@ button {
     height: 100%;
     border-radius: 50%;
     display: flex;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     margin-top: 8px;
     transition: background-color var(--tr), color var(--tr), transform var(--tr);
-    justify-self: center;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-link:hover,
-.social-link:focus,
-.social-link:focus-visible {
+.social-link:focus {
     background-color: #404bbf;
 }
+
+
 
 .social-link:hover {
     background-color: #404bbf;;
@@ -556,6 +559,8 @@ button {
 
 .socials {
     fill: 16px;
+}
+.socials-footer {
     gap: 16px;
 }
 
