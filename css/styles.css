@@ -364,12 +364,6 @@ button {
     margin-top: 8px;
 }
 
-.socials-list {
-    height: 40px;
-    width: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
-}
-
 .socials-item {
     width: 40px;
     height: 40px;
@@ -388,23 +382,26 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.socials-list {
+    height: 40px;
+    width: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+
+
+
+
+
 .social-link:hover,
 .social-link:focus {
     background-color: #404bbf;
-}
-
-
-
-.social-link:hover {
-    background-color: #404bbf;;
-}
-
-
-.social-link:hover,
-.social-link:focus-visible {
-    background: #31d0aa;
     transform: translateY(-1px);
     outline: none;
+}
+
+
+.social-link:active {
+    background-color: #31d0aa;
 }
 
 .icon-team {
