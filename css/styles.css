@@ -507,6 +507,7 @@ button {
     display: flex;
     align-items: baseline;
 }
+
 .footer-left {
     margin-right: 120px;
 }
@@ -526,19 +527,33 @@ button {
 
 .footer-text {
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #ffffff;
     letter-spacing: 0.02em;
     max-width: 264px;
-
 }
 
 .footer-right {
-    display: block
+    display: block;
     flex-direction: column;
     gap: 16px;
     align-items: baseline;
     margin-right: 120px;
 }
+
+.socials {
+    fill: 16px;
+    gap: 16px;
+}
+
+.footer-list {
+    width: 40px;
+    height: 40px;
+}
+
+.social-link {
+    height: 100%;
+}
+
 .footer-logo-accent {
     color: #F4F4FD;
 }
