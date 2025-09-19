@@ -6,6 +6,7 @@
     --tr: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --light-slate: #8E8F99;
     --cloud: #F4F4FD;
+    --white: #FFFFFF;
 }
 
 body {
@@ -552,6 +553,7 @@ button {
 
 .social-link {
     height: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logo-accent {
@@ -566,7 +568,7 @@ button {
 .footer-social {
     margin: 0 0 16px;
     font-weight: 500;
-    color: #F4F4FD;
+    color: var(--white);
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
