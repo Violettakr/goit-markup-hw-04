@@ -127,7 +127,6 @@ button {
 .nav-link[aria-current="page"]::after {
     content: "";
     position: absolute;
-    left: 50%;
     transform: translateX(-50%);
     bottom: -1px;
     width: 48px;
@@ -389,12 +388,6 @@ button {
 }
 
 
-.social-link:hover,
-.social-link:focus {
-    background-color: #404bbf;
-    transform: translateY(-1px);
-    outline: none;
-}
 
 .social-link:hover,
 .social-link:focus,
