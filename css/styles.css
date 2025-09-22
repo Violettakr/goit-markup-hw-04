@@ -389,9 +389,6 @@ button {
 }
 
 
-
-
-
 .social-link:hover,
 .social-link:focus {
     background-color: #404bbf;
@@ -399,9 +396,12 @@ button {
     outline: none;
 }
 
-
-.social-link:active {
+.social-link:hover,
+.social-link:focus,
+.social-link:focus-visible {
     background-color: #31d0aa;
+    transform: translateY(-1px);
+    outline: none;
 }
 
 .icon-team {
@@ -445,7 +445,7 @@ button {
     overflow: hidden;
 }
 
-.taste-item img{
+.taste-item img {
     display: block;
     width: 100%;
     height: auto;
